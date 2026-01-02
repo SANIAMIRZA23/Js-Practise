@@ -121,3 +121,8 @@ for (let values of myMap.values()) {
     
 }
 
+//Es6 Loops:
+let loop = [1, 2, 3, 4, 5];
+let filterArr = loop.filter((nums) => nums > 2); //finds that number that greater than 2 are available or not? 
+console.log(filterArr); // [3,4,5]
+
